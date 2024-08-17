@@ -17,7 +17,7 @@ var isHappy = function (n) {
         if (valueStorage === 1) {
             return true;
         }
-        if (seenNumbers.length > 100) {
+        if (seenNumbers.length > 56) {
             return false;
         }
         if (valueStorage === n) {
@@ -26,5 +26,5 @@ var isHappy = function (n) {
         n = valueStorage;
     }
 };
-let result = isHappy(86);
+let result = isHappy(710);
 console.log(result);
