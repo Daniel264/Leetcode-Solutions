@@ -1,9 +1,4 @@
-// function reverseWords(s: string): string {
-//     s = 'the sky is blue'
-//     const splitted = s.split
-//     console.log(splitted);
 
-// };
 /**
  * @param {string} s
  * @return {string}
